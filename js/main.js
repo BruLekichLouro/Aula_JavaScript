@@ -1,10 +1,13 @@
-var count = 0;
-for(count = 0; count <=5; count++){
+var d = new Date();
+alert(d.getMonth()+1);
+alert(d.getHours());
+
+
+/*for(count = 0; count <=5; count++){
     alert(count);
 };
 
-
-/*var count =0;
+var count =0;
 while(count <= 5){
     console.log(count);
     count ++;
