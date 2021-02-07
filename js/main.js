@@ -1,9 +1,32 @@
+
+function botão (){
+    alert("Obrigada por clicar");
+}
+
+
+
+/*function validaIdade(idade){
+    var validar;
+    if(idade >= 18){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+var idade = prompt("Qual suaidade?");
+alert(validaIdade(idade));
+
+function soma(n1, n2){
+    return n1 + n2;
+}
+alert(soma(5, 5));
+
 var d = new Date();
 alert(d.getMonth()+1);
 alert(d.getHours());
 
-
-/*for(count = 0; count <=5; count++){
+for(count = 0; count <=5; count++){
     alert(count);
 };
 
