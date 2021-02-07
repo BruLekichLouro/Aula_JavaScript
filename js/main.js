@@ -1,6 +1,6 @@
 
-function botão (){
-    alert("Obrigada por clicar");
+function botao(){
+    document.getElementById("agradecimento").innerHTML="Obrigada por clicar";
 }
 
 
