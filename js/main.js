@@ -2,6 +2,24 @@
 function botao(){
     document.getElementById("agradecimento").innerHTML="Obrigada por clicar";
 }
+function redirecionar(){
+    window.open("https://www.google.com.br/");
+   // window.location.href ="https://www.google.com.br/";
+}
+function trocar(elemento){
+   // document.getElementById("mousemove").innerHTML ="Obrigada por passar o mouse"
+   elemento.innerHTML="Obrigada por passar o mouse"
+}
+function voltar(elemento){
+    //document.getElementById("mousemove").innerHTML ="Passe o mouse aqui"
+    elemento.innerHTML="Passe o mouse aqui"
+}
+function load(){
+    alert("Página carregada");
+}
+function mudar(elemento){
+    console.log(elemento.value)
+}
 
 
 

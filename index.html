@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="style.css" >
         <script type="text/javascript" src="js/main.js"></script>
     </head>
-    <body>    
+    <body onload="load()">    
         <header>
             <img src="img/Bruna-Lekich.jpg " alt="Imagem do rosto de Bruna Lekich Louro" class="foto">
             <h1 id="tittle">Bruna Louro</h1>
@@ -33,7 +33,14 @@
             </article>
         </section>
         <button type="button" onclick="botao()"> Clique aqui </button>
-        <p id="agradecimento"></p>
+        <p id="agradecimento" onclick="redirecionar()"></p>
+        <p id="mousemove" onmouseover="trocar(this)" onmouseout="voltar(this)"> Passe o mouse aqui</p>
+        <p id="mousemove" onmouseover="trocar(this)" onmouseout="voltar(this)"> Passe o mouse aqui</p>
+        <select onchange="mudar(this)">
+            <option value="1">Valor 1</option>
+            <option value="2">Valor 2</option>
+            <option value="3">Valor 3</option>
+        </select>
         <footer>
             <ul class="contacts-list">    
                 <li>
